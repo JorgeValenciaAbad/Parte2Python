@@ -1,0 +1,13 @@
+    """def select_match(self):
+        for item in self.table.selectedItems():
+            self.carrito.append(item.row())
+            self.lista.addItem(QtWidgets.QListWidgetItem(item.text()))
+            self.precio_total += 60
+            self.precio.setText(str(self.precio_total)+'€')"""
+  #self.local_logo.setStyleSheet("background-image: url('"+self.res.json()['data'][row]['home_team']['logo']+"');background-size: contain; background-repeat: no-repeat;")
+        #self.away_logo.setStyleSheet("background-image: url('"+self.res.json()['data'][row]['away_team']['logo']+"');background-size: contain; background-repeat: no-repeat;")
+                #self.away.setText(self.res.json()['data'][row]['away_team']['name'])
+                #res = requests.get('https://app.sportdataapi.com/api/v1/soccer/matches?apikey=' + key + '&season_id=' + season + '&date_from=' + str(date.year) + '-' + str(date.month) + '-' + str(date.day) + '&status=0')
+                    date = datetime.datetime.now().date()
+    precio_total = 0
+        season = '3307'
